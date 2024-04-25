@@ -38,6 +38,8 @@ Kady Tran
                 Console.WriteLine("Your whole number is a positive."); // Positive
             }
 
+            // Approach: For this question, I used the if statement
+
         } // End of Problem1()
 
         public static void Problem2()
@@ -71,6 +73,8 @@ Kady Tran
                 Console.WriteLine("The largest number is " + num3);
             }
 
+            // Approach: I use the if, else if, else since it was required
+
         } // End of problem2
 
         public static void Problem3()
@@ -96,6 +100,7 @@ Kady Tran
                 Console.WriteLine("Consonant");
             }
 
+            // Approach: At first, I thought this was an arrays questions but we barely touched in on it during class so I knew that it stuck to conditions. I used if else statement and I used the tip of using the ".ToLower()" because a user may input a capitalized letter, so it's better to think ahead and implement that so something common like this doesn't result in an error. I also didn't know how to use the "char.ToLower()" without it throwing errors at me so that's why I settled with STRINGNAME.ToLower() instead. 
         } // End of problem3
 
         public static void Problem4()
@@ -118,6 +123,8 @@ Kady Tran
                 Console.WriteLine(i * userNum); // Displaying the multiplication from * 1 up until * 10
             }
 
+            // Approach: For this one, this was simple and easy to do for my first loop question.
+            
         } // End of problem4
 
         public static void Problem5()
@@ -157,6 +164,8 @@ Kady Tran
                 Console.WriteLine(userPrimeNum + " is not a prime number.");
             }
 
+            // Approach: This was really hard for me to figure out how to go about this problem, I had to use a lot of resources and one that really helped was chatGPT but, the chatGPT response had more of advanced take on it but I was able to learn from it and was able to successfully code the program using a boolean. Initially, I didn't start off coding with a boolean, which was probably why my code was not working, but after learning that I should use a boolean from chatGPT, it started working. I also had issues with having two outputs. It took me at least 2-3 hours trying to figure this solution out sadly...
+
     } // End of Problem5
 
         public static void Problem6()
@@ -177,7 +186,7 @@ Kady Tran
                 i <= 100; // stopping the count at 100
                 i++) // counting the number by 1
             {
-                if (i % multiplesOfThree == 0 && i % multiplesOfFive == 0) // Starting off th eif statement for numbers that are multiples of both three and five because I found out that when I put this last, it doesn't display at all in the console
+                if (i % multiplesOfThree == 0 && i % multiplesOfFive == 0) // Starting off the if statement for numbers that are multiples of both three and five because I found out that when I put this last, it doesn't display at all in the console
                 {
                     Console.WriteLine("FizzBuzz");
                 }
@@ -195,6 +204,8 @@ Kady Tran
                 }
 
             }
+
+            // Approach: At first, I started the if statement with the multiples of threes, multiples of five, and then multiples of both three and five, but when I did that, the FizzBuzz was not being displayed at all, so then I realized, the placement definitely matters since it goes top from bottom, and after putting it in the right order, it was finally working
 
 
         } // End of problem6
